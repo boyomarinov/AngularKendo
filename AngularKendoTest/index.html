@@ -2,24 +2,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Angular Kendo experiment</title>
-    <script type="text/javascript" src="libs/jquery.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script type="text/javascript" src="libs/kendo.menu.min.js"></script>
-    <script type="text/javascript" src="libs/angular-kendo.js"></script>
-    <script type="text/javascript" src="scripts/init-controls.js"></script>
+    <link rel="stylesheet" href="styles/kendo/kendo.common.min.css" />
+    <link rel="stylesheet" href="styles/kendo/kendo.default.min.css" />
+    <link rel="stylesheet" href="styles/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="styles/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>
+    <script src="http://cdn.kendostatic.com/2014.1.318/js/kendo.all.min.js"></script>
+    <script src="scripts/libs/angular-kendo.js"></script>
+    <script src="scripts/libs/kendo.ui.core.min.js"></script>
+    <script src="scripts/libs/bindonce.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/mainController.js"></script>
+    <script src="scripts/controllers/estatesController.js"></script>
+    <script src="scripts/controllers/contactsController.js"></script>
+    <script src="scripts/controllers/estatesNewController.js"></script>
+    <script src="scripts/init-controls.js"></script>
 </head>
 <body>
-    <div id="main-container" ng-app="app">
+    <div id="main-container" ng-app="kendoApp" class="container-fluid">
         <div ng-controller="MainController">
-            <header>
-            <nav>
-                <ul id="main-menu">
-                    <li>Home</li>
-                    <li>Another tab</li>
-                    <li>Another tab</li>
-                </ul>
-            </nav>
-        </header>
+            <header class="span3">
+                <nav>
+                    <ul id="main-menu" kendo-menu
+                        k-orientation="menuOrientation"
+                        k-rebind="menuOrientation">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#estates">Estates</a>
+                            <ul>
+                                <li><a href="#estates/new">New Estate</a></li>
+                                <li>Estate data</li>
+                            </ul>
+                        </li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div ng-view class="span9">
+            </div>
         </div>
     </div>
 </body>

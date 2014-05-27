@@ -57,18 +57,42 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="partials\contacts.html" />
+    <Content Include="partials\estates.html" />
+    <Content Include="partials\home.html" />
+    <Content Include="scripts\controllers\contactsController.js" />
+    <Content Include="scripts\controllers\estatesController.js" />
+    <Content Include="scripts\controllers\mainController.js" />
     <Content Include="index.html" />
-    <Content Include="libs\angular-kendo.js" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\libs\bindonce.min.js" />
+    <Content Include="scripts\libs\kendo.router.min.js" />
+    <Content Include="scripts\libs\kendo.ui.core.min.js" />
+    <Content Include="scripts\libs\angular-kendo.js" />
     <Content Include="scripts\init-controls.js" />
-    <Content Include="libs\jquery.min.js" />
-    <Content Include="libs\kendo.menu.min.js" />
+    <Content Include="scripts\libs\kendo.menu.min.js" />
+    <Content Include="styles\bootstrap-responsive.min.css" />
+    <Content Include="styles\bootstrap.min.css" />
+    <Content Include="styles\kendo\Default\editor.png" />
+    <Content Include="styles\kendo\Default\imagebrowser.png" />
+    <Content Include="styles\kendo\Default\indeterminate.gif" />
+    <Content Include="styles\kendo\Default\loading-image.gif" />
+    <Content Include="styles\kendo\Default\loading.gif" />
+    <Content Include="styles\kendo\Default\loading_2x.gif" />
+    <Content Include="styles\kendo\Default\slider-h.gif" />
+    <Content Include="styles\kendo\Default\slider-v.gif" />
+    <Content Include="styles\kendo\Default\sprite.png" />
+    <Content Include="styles\kendo\Default\sprite_2x.png" />
+    <Content Include="styles\kendo\kendo.common.min.css" />
+    <Content Include="styles\kendo\kendo.default.min.css" />
+    <Content Include="styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libs\kendo.menu.min.js.map" />
+    <Content Include="scripts\libs\kendo.menu.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -76,6 +100,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,12 @@
+﻿body {
+}
+
+#main-container {
+    margin: 20px;
+    border: 1px grey;
+}
+
+#main-menu {
+    margin-top: 20px;
+    display: inline-block;
+}
