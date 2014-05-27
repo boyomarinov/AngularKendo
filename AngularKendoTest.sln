@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularKendoTest", "AngularKendoTest\AngularKendoTest.csproj", "{391DCE4C-2D18-4B49-990D-35AD941497BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{391DCE4C-2D18-4B49-990D-35AD941497BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391DCE4C-2D18-4B49-990D-35AD941497BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391DCE4C-2D18-4B49-990D-35AD941497BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391DCE4C-2D18-4B49-990D-35AD941497BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
