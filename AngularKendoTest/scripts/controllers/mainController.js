@@ -3,4 +3,5 @@
     $scope.showContacts = false;
     $scope.menuOrientation = "vertical";
     $scope.text = "Main controller is working!";
+    $scope.color1 = "";
 });

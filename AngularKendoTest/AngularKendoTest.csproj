@@ -58,10 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="partials\contacts.html" />
+    <Content Include="partials\estates-new.html" />
     <Content Include="partials\estates.html" />
     <Content Include="partials\home.html" />
     <Content Include="scripts\controllers\contactsController.js" />
     <Content Include="scripts\controllers\estatesController.js" />
+    <Content Include="scripts\controllers\estatesNewController.js" />
     <Content Include="scripts\controllers\mainController.js" />
     <Content Include="index.html" />
     <Content Include="scripts\app.js" />
@@ -85,6 +87,36 @@
     <Content Include="styles\kendo\Default\sprite_2x.png" />
     <Content Include="styles\kendo\kendo.common.min.css" />
     <Content Include="styles\kendo\kendo.default.min.css" />
+    <Content Include="styles\kendo\textures\brushed-metal.png" />
+    <Content Include="styles\kendo\textures\dots1.png" />
+    <Content Include="styles\kendo\textures\dots10.png" />
+    <Content Include="styles\kendo\textures\dots11.png" />
+    <Content Include="styles\kendo\textures\dots12.png" />
+    <Content Include="styles\kendo\textures\dots13.png" />
+    <Content Include="styles\kendo\textures\dots2.png" />
+    <Content Include="styles\kendo\textures\dots3.png" />
+    <Content Include="styles\kendo\textures\dots4.png" />
+    <Content Include="styles\kendo\textures\dots5.png" />
+    <Content Include="styles\kendo\textures\dots6.png" />
+    <Content Include="styles\kendo\textures\dots7.png" />
+    <Content Include="styles\kendo\textures\dots8.png" />
+    <Content Include="styles\kendo\textures\dots9.png" />
+    <Content Include="styles\kendo\textures\glass-lighter.png" />
+    <Content Include="styles\kendo\textures\glass.png" />
+    <Content Include="styles\kendo\textures\highlight.png" />
+    <Content Include="styles\kendo\textures\hsv-gradient.png" />
+    <Content Include="styles\kendo\textures\hue.png" />
+    <Content Include="styles\kendo\textures\leather1.png" />
+    <Content Include="styles\kendo\textures\leather2.png" />
+    <Content Include="styles\kendo\textures\noise.png" />
+    <Content Include="styles\kendo\textures\stripe1.png" />
+    <Content Include="styles\kendo\textures\stripe2.png" />
+    <Content Include="styles\kendo\textures\stripe3.png" />
+    <Content Include="styles\kendo\textures\stripe4.png" />
+    <Content Include="styles\kendo\textures\stripe5.png" />
+    <Content Include="styles\kendo\textures\stripe6.png" />
+    <Content Include="styles\kendo\textures\transparency.png" />
+    <Content Include="styles\kendo\textures\transtexture.png" />
     <Content Include="styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
