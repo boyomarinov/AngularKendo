@@ -1,2 +1,17 @@
 ﻿<h1>Contacts</h1>
 <p>{{text}}</p>
+<hr />
+<ul id="sortable" ui-sortable="sortableOptions" ng-model="contacts">
+    <li class="ui-state-default" ng-repeat="contact in contacts">
+        <div>{{contact.id}}</div>
+        <div>{{contact.name}}</div>
+    </li>
+</ul>
+<div id="position-container">
+    <div>
+        <label class="label">Start position: </label><span>{{startPosition}}</span>
+    </div>
+    <div>
+        <label class="label">End position: </label><span>{{endPosition}}</span>
+    </div>
+</div>

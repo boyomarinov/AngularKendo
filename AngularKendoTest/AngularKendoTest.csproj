@@ -69,12 +69,14 @@
     <Content Include="index.html" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\libs\bindonce.min.js" />
+    <Content Include="scripts\libs\jquery-ui-1.10.4.custom.min.js" />
     <Content Include="scripts\libs\kendo.router.min.js" />
     <Content Include="scripts\libs\kendo.ui.core.min.js" />
     <Content Include="scripts\libs\angular-kendo.js" />
     <Content Include="scripts\init-controls.js" />
     <Content Include="scripts\libs\kendo.menu.min.js" />
     <None Include="scripts\mocks\data\estates.json" />
+    <Content Include="scripts\libs\sortable.js" />
     <Content Include="scripts\mocks\estatesControllerMock.js" />
     <Content Include="scripts\mocks\estatesControllerTest.js" />
     <Content Include="styles\bootstrap-responsive.min.css" />
