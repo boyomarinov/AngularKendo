@@ -1,7 +1,7 @@
 # AngularKendo
 ============
 
-This is a 'playground' for testing out integration of Telerik controls with Angular and jQueryUI.
+This is a project intended for testing out integration of Telerik controls with Angular and jQueryUI.
 
 ## Estates part
 Kendo playground
