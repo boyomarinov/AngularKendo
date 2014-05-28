@@ -17,13 +17,10 @@ app.config(function($routeProvider) {
         .when("/contacts", {
             templateUrl: "partials/contacts.html",
             controller: "ContactsController"
-        })
-        
+        });
 });
 
-
-
-//// if state provider is used
+//// If state provider is used instead of $routeProvider
 //.config(["$stateProvider", function($stateProvider) {
     //    var home = {
     //        name: "home",

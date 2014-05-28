@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -73,6 +74,9 @@
     <Content Include="scripts\libs\angular-kendo.js" />
     <Content Include="scripts\init-controls.js" />
     <Content Include="scripts\libs\kendo.menu.min.js" />
+    <None Include="scripts\mocks\data\estates.json" />
+    <Content Include="scripts\mocks\estatesControllerMock.js" />
+    <Content Include="scripts\mocks\estatesControllerTest.js" />
     <Content Include="styles\bootstrap-responsive.min.css" />
     <Content Include="styles\bootstrap.min.css" />
     <Content Include="styles\kendo\Default\editor.png" />

@@ -1,2 +1,16 @@
 ﻿<h1>Estates</h1>
 <p>{{text}}</p>
+<hr/>
+<button class="btn" ng-click="loadMockedEstates()">Load mocked estates</button>
+<table class="table table-striped">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="estate in estates">
+            <td>{{estate.id}}</td>
+            <td>{{estate.name}}</td>
+        </tr>
+    </tbody>
+</table>
