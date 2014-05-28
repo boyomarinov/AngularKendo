@@ -1,4 +1,4 @@
-﻿var app = angular.module("kendoApp", ["kendo.directives", "ngRoute"]);
+﻿var app = angular.module("kendoApp", ["kendo.directives", "ngRoute", "estate-mocks"]);
 
 app.config(function($routeProvider) {
     $routeProvider

@@ -25,5 +25,3 @@ angular.module('estate-mocks', ['ngMockE2E'])
     $httpBackend.whenGET(/\.html$/).passThrough();
     //$httpBackend.whenPOST(/^\w+.*/).passThrough();
 });
-
-angular.module('kendoApp').requires.push('estate-mocks');
