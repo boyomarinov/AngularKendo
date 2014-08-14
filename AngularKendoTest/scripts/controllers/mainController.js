@@ -5,4 +5,5 @@
     $scope.text = "Main controller is working!";
     $scope.color1 = "";
     $scope.test = 'bugfix5 test';
+    $scope.master = 'master test';
 });
