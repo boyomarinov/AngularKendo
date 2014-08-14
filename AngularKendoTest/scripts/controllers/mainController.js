@@ -4,5 +4,5 @@
     $scope.menuOrientation = "vertical";
     $scope.text = "Main controller is working!";
     $scope.color1 = "";
-    $scope.test = 'bugfix4 test';
+    $scope.test = 'bugfix5 test';
 });
