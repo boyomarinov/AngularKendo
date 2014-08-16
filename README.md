@@ -7,4 +7,4 @@ This is a project intended for testing out integration of Telerik controls with 
 Kendo playground
 
 ## Contacts part
-jQueryUI playground 
+jQueryUI playground
