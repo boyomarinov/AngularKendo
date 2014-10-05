@@ -25,6 +25,7 @@
     <script src="scripts/mocks/estatesControllerMock.js"></script>
     <script src="scripts/libs/sortable.js"></script>
     <script src="scripts/init-controls.js"></script>
+    <script src="scripts/directives/grid-directive/grid-directive.js"></script>
 </head>
 <body>
     <div id="main-container" ng-app="kendoApp" class="container-fluid">
@@ -52,6 +53,9 @@
             </header>
             <div ng-view class="span9">
             </div>
+            <div class="span3">
+                <my-grid options="gOptions"></my-grid>
+            </div>  
         </div>
     </div>
 </body>

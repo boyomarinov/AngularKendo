@@ -68,6 +68,8 @@
     <Content Include="scripts\controllers\mainController.js" />
     <Content Include="index.html" />
     <Content Include="scripts\app.js" />
+    <Content Include="scripts\directives\grid-directive\grid-directive.js" />
+    <Content Include="scripts\directives\grid-directive\grid-directive.tpl.html" />
     <Content Include="scripts\libs\bindonce.min.js" />
     <Content Include="scripts\libs\jquery-ui-1.10.4.custom.min.js" />
     <Content Include="scripts\libs\kendo.router.min.js" />
